@@ -80,92 +80,104 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header border-0 text-center">
-            <h5
-              class="modal-title w-100 text-xl fs-3 fw-bold"
-              id="exampleModalLabel"
-            >
-              Para fazer download
-              <span class="">
-                <p class="fs-6 fw-normal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content form-modal">
+          <!-- modal header  -->
+          <div class="form-modal-dimention">
+            <div class="modal-top-header">
+              <div class="d-flex justify-content-center">
+                <h5 class="" id="exampleModalLabel">Para fazer download</h5>
+              </div>
+              <div class="d-flex justify-content-end close-button">
+                <button
+                  class="rounded-circle border-0"
+                  type="button"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <i class="far fa-times-circle"></i>
+                </button>
+              </div>
+              <div class="d-flex justify-content-center">
+                <p>
                   Para ter o documento de codigo de conduta e etica para
                   terceiros, preenche o formularia abaxia
                 </p>
-              </span>
-            </h5>
-
-            <button
-              class="rounded-circle border-0"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="far fa-times-circle"></i>
-            </button>
-          </div>
-
-          <div class="modal-body">
-            <div>
-              <p class="fw-bold mb-1">CPF/CNPJ</p>
-              <div class="mb-0">
-                <input
-                  type="text"
-                  class="form-control input-bg rounded-3 border-0"
-                  placeholder="Digite seu CPF/CNPJ aqui"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
-                />
               </div>
-              <p class="required-text mt-1">* obrigotorio</p>
-            </div>
-            <div>
-              <p class="fw-bold mb-1">Nome/Razao social</p>
-              <div class="mb-0">
-                <input
-                  type="text"
-                  class="form-control input-bg rounded-3 border-0"
-                  placeholder="Digite aqui"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
-                />
-              </div>
-              <p class="required-text mt-1">* obrigotorio</p>
-            </div>
-            <div>
-              <p class="fw-bold mb-1">E-mail</p>
-              <div class="mb-0">
-                <input
-                  type="text"
-                  class="form-control input-bg rounded-3 border-0"
-                  placeholder="Digite seu e-mail aqui"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
-                />
-              </div>
-              <p class="required-text mt-1">* obrigotorio</p>
             </div>
 
-            <div class="text-center mt-4">
-              <p class="small-text fw-bolder">
-                Os dados pessoais aqui coletados serán utilizados para
-                comunicaciones de actualización de movimientos de su mercadoria
-                de acuerdo con los requisitos de LGPD. Más detalles sobre el uso
-                de sus datos personales, pueden accederse a na
-                <span style="color: #2b17ff; text-decoration: underline">
-                  Política de Privacidad</span
-                >
-              </p>
+            <!-- modal input section  -->
+
+            <div class="modal-input-section">
+              <div class="modal-body">
+                <div class="input-container">
+                  <p class="input-text-label">CPF/CNPJ</p>
+                  <div class="mb-0">
+                    <input
+                      type="text"
+                      class="form-control input-bg border-0"
+                      placeholder="Digite seu CPF/CNPJ aqui"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
+                  <p class="required-text">* obrigotorio</p>
+                </div>
+                <div class="input-container">
+                  <p class="input-text-label">Nome/Razao social</p>
+                  <div class="mb-0">
+                    <input
+                      type="text"
+                      class="form-control input-bg rounded-3 border-0"
+                      placeholder="Digite aqui"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
+                  <p class="required-text mt-1">* obrigotorio</p>
+                </div>
+                <div class="input-container">
+                  <p class="input-text-label">E-mail</p>
+                  <div class="mb-0">
+                    <input
+                      type="text"
+                      class="form-control input-bg rounded-3 border-0"
+                      placeholder="Digite seu e-mail aqui"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
+                  <p class="required-text mt-1">* obrigotorio</p>
+                </div>
+
+                <div class="footer-text">
+                  <p class="">
+                    Os dados pessoais aqui coletados serán utilizados para
+                    comunicaciones de actualización de movimientos de su
+                    mercadoria de acuerdo con los requisitos de LGPD. Más
+                    detalles sobre el uso de sus datos personales, pueden
+                    accederse a na
+                    <span
+                      style="
+                        color: #0000ff;
+                        font-weight: 700;
+                        text-decoration: underline;
+                      "
+                    >
+                      Política de Privacidad</span
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="modal-footer border-0">
-            <button
-              type="button"
-              class="btn btn-block btn-lg button-style rounded-3 w-100"
-            >
-              FAZER DOWNLOAD
-            </button>
+            <div class="modal-footer border-0">
+              <button
+                type="button"
+                class="btn btn-block btn-lg button-style rounded-3 w-100"
+              >
+                FAZER DOWNLOAD
+              </button>
+            </div>
           </div>
         </div>
       </div>
