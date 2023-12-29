@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Rodonaves Modal</title>
+
+    <script>
+      // Wait for the document to be ready
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get the modal element
+        var myModal = new bootstrap.Modal(
+          document.getElementById("exampleModal")
+        );
+
+        // Open the modal
+        myModal.show();
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Para Fazer Download
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0 text-center">
+            <h5
+              class="modal-title w-100 text-xl fs-3 fw-bold"
+              id="exampleModalLabel"
+            >
+              Para fazer download
+              <span class="">
+                <p class="fs-6 fw-normal">
+                  Para ter o documento de codigo de conduta e etica para
+                  terceiros, preenche o formularia abaxia
+                </p>
+              </span>
+            </h5>
+
+            <button
+              class="rounded-circle border-0"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="far fa-times-circle"></i>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div>
+              <p class="fw-bold mb-1">CPF/CNPJ</p>
+              <div class="mb-0">
+                <input
+                  type="text"
+                  class="form-control input-bg rounded-3"
+                  placeholder="Digite seu CPF/CNPJ aqui"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <p class="required-text mt-1">* obrigotorio</p>
+            </div>
+            <div>
+              <p class="fw-bold mb-1">Nome/Razao social</p>
+              <div class="mb-0">
+                <input
+                  type="text"
+                  class="form-control input-bg rounded-3"
+                  placeholder="Digite aqui"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <p class="required-text mt-1">* obrigotorio</p>
+            </div>
+            <div>
+              <p class="fw-bold mb-1">E-mail</p>
+              <div class="mb-0">
+                <input
+                  type="text"
+                  class="form-control input-bg rounded-3"
+                  placeholder="Digite seu e-mail aqui"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <p class="required-text mt-1">* obrigotorio</p>
+            </div>
+
+            <div class="text-center mt-4">
+              <p class="small-text fw-bolder">
+                Os dados pessoais aqui coletados serán utilizados para
+                comunicaciones de actualización de movimientos de su mercadoria
+                de acuerdo con los requisitos de LGPD. Más detalles sobre el uso
+                de sus datos personales, pueden accederse a na
+                <span style="color: #2b17ff; text-decoration: underline">
+                  Política de Privacidad</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer border-0">
+            <button
+              type="button"
+              class="btn btn-block btn-lg button-style rounded-3 w-100"
+            >
+              FAZER DOWNLOAD
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
