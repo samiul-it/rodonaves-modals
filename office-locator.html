@@ -22,7 +22,7 @@
       document.addEventListener("DOMContentLoaded", function () {
         // Get the modal element
         var myModal = new bootstrap.Modal(
-          document.getElementById("exampleModal2")
+          document.getElementById("exampleModal")
         );
 
         // Open the modal
@@ -69,7 +69,7 @@
       data-bs-toggle="modal"
       data-bs-target="#exampleModal"
     >
-      Para Fazer Download
+      Office Locator
     </button>
 
     <!-- Modal-1 -->
@@ -86,7 +86,7 @@
           <div class="form-modal-dimention">
             <div class="modal-top-header">
               <div class="d-flex justify-content-center">
-                <h5 class="" id="exampleModalLabel">Para fazer download</h5>
+                <h5 class="" id="exampleModalLabel">Você é nosso cliente</h5>
               </div>
               <div class="d-flex justify-content-end close-button">
                 <button
@@ -100,82 +100,68 @@
               </div>
               <div class="d-flex justify-content-center">
                 <p>
-                  Para ter o documento de codigo de conduta e etica para
-                  terceiros, preenche o formularia abaxia
+                  Para sua cotação, entre em contato com a unidade abaixo ou
+                  acesse o portal do cliente
                 </p>
               </div>
             </div>
 
             <!-- modal input section  -->
-
-            <div class="modal-input-section">
-              <div class="modal-body">
-                <div class="input-container">
-                  <p class="input-text-label">CPF/CNPJ</p>
-                  <div class="mb-0">
-                    <input
-                      type="text"
-                      class="form-control input-bg border-0"
-                      placeholder="Digite seu CPF/CNPJ aqui"
-                      aria-label="Username"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <p class="required-text">* obrigotorio</p>
-                </div>
-                <div class="input-container">
-                  <p class="input-text-label">Nome/Razao social</p>
-                  <div class="mb-0">
-                    <input
-                      type="text"
-                      class="form-control input-bg rounded-3 border-0"
-                      placeholder="Digite aqui"
-                      aria-label="Username"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <p class="required-text mt-1">* obrigotorio</p>
-                </div>
-                <div class="input-container">
-                  <p class="input-text-label">E-mail</p>
-                  <div class="mb-0">
-                    <input
-                      type="text"
-                      class="form-control input-bg rounded-3 border-0"
-                      placeholder="Digite seu e-mail aqui"
-                      aria-label="Username"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <p class="required-text mt-1">* obrigotorio</p>
-                </div>
-
-                <div class="footer-text mt-5">
-                  <p class="">
-                    Os dados pessoais aqui coletados serán utilizados para
-                    comunicaciones de actualización de movimientos de su
-                    mercadoria de acuerdo con los requisitos de LGPD. Más
-                    detalles sobre el uso de sus datos personales, pueden
-                    accederse a na
-                    <span
-                      style="
-                        color: #0000ff;
-                        font-weight: 700;
-                        text-decoration: underline;
-                      "
+            <div class="modal-content-body">
+              <div class="modal-content-body-text">
+                <h1>Ribeirão Preto - SP</h1>
+                <p>CTC - 901</p>
+                <div class="row">
+                  <div class="col-lg-10">
+                    <div
+                      class="d-flex justify-content-start align-items-center"
                     >
-                      Política de Privacidad</span
+                      <img src="Assets/location.png" alt="" srcset="" />
+                      <p class="ms-2 mb-0">
+                        R. Gen. Augusto Soares dos Santos, 550 - Parque
+                        Industrial, Ribeirão Preto - SP, 14095-240
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-2">
+                    <div
+                      class="d-flex justify-content-start align-items-center"
                     >
-                  </p>
+                      <span class="">
+                        <p class="mb-0 ms-lg-0 ms-4" style="color: #0000ff">
+                          Ver mapa >
+                        </p>
+                        <!-- <img src="Assets/Vector.png" alt="" /> -->
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-3 mb-5">
+                  <div class="col-12 mb-4">
+                    <div
+                      class="d-flex justify-content-start align-items-center"
+                    >
+                      <img src="Assets/call.png" alt="" srcset="" />
+                      <p class="ms-2 mb-0">Fone: 169922121</p>
+                      <div class="call-btn ms-2">
+                        <button type="button" class="btn">Ligar</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="modal-footer border-0">
+
+            <div class="footer-text-heading text-center mt-5">
+              <h1>Acessar portal do cliente</h1>
+            </div>
+
+            <div class="modal-footer border-0 mb-5">
               <button
                 type="button"
-                class="btn btn-block btn-lg button-style rounded-3 w-100"
+                class="btn btn-block btn-lg button-style w-100"
               >
-                FAZER DOWNLOAD
+                Acessar portal
               </button>
             </div>
           </div>

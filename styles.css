@@ -2,11 +2,11 @@
 
 /* Modal Body  */
 .form-modal-dimention {
-  height: 809px;
+  /* height: 809px; */
   width: 700px;
 }
 .form-modal {
-  height: 809px;
+  /* height: 809px; */
   width: 700px;
   border: 1px;
   border-radius: 24px;
@@ -28,10 +28,12 @@
 .modal-top-header button {
   width: 40px;
   height: 40px;
-  background-color: #fafafa;
+  margin-right: 30px;
+  background-color: #ffffff;
 }
 .close-button {
-  margin-top: -30px;
+  margin-top: -35px;
+  margin-right: 10px;
 }
 .modal-top-header i {
   width: 16px;
@@ -124,13 +126,19 @@
     /* gap: 4px; */
   }
   .modal-top-header button {
-    width: 40px;
-    height: 40px;
-    background-color: #fafafa;
+    width: 30px;
+    height: 30px;
+
+    /* background-color: #fafafa; */
+    background-color: #ffffff;
   }
   .close-button {
-    margin-top: -50px;
-    margin-left: 30px;
+    /* margin-top: -50px;
+    margin-left: 30px; */
+    margin-left: 336px;
+    margin-top: -35px;
+  }
+  .close-button button {
   }
   .modal-top-header i {
     width: 20px;
@@ -195,7 +203,8 @@
 
 /* close button  */
 
-info-close-button {
+.info-close-button button {
+  background-color: #f5f5f5;
 }
 .info-modal-content {
   width: 536px;
@@ -217,6 +226,11 @@ info-close-button {
   font-size: 16px;
   font-weight: 700;
 }
+.contact a {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
 
 /* info modal mobile version  */
 
@@ -230,7 +244,8 @@ info-close-button {
 
   /* close button  */
 
-  info-close-button {
+  .info-close-button {
+    width: 30px;
   }
   .info-modal-content {
     width: 300px;
@@ -250,5 +265,88 @@ info-close-button {
     margin-left: 8px;
     font-size: 13px;
     font-weight: 700;
+  }
+}
+
+/* Office location modal  */
+
+.modal-content-body {
+  width: 652px;
+  background-color: #f5f5f5;
+  border-radius: 16px;
+  margin: 24px;
+}
+
+.modal-content-body-text {
+  margin: 12px;
+  margin-bottom: 0px;
+}
+
+.modal-content-body-text h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+}
+.modal-content-body-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.modal-content-body-text img {
+  height: 16px;
+  width: 16px;
+}
+.footer-text-heading h1 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33.6px;
+}
+
+.call-btn button {
+  border: 1px solid #0000ff;
+  width: 65px;
+  height: 32px;
+  color: #0000ff;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content-body {
+    width: 320px;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+  }
+
+  .modal-content-body-text {
+    margin-bottom: 0px;
+  }
+
+  .modal-content-body-text h1 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .modal-content-body-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  .modal-content-body-text img {
+    height: 16px;
+    width: 16px;
+  }
+  .footer-text-heading h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33.6px;
+  }
+
+  .call-btn button {
+    border: 1px solid #0000ff;
+    width: 65px;
+    height: 32px;
+    color: #0000ff;
+    font-size: 14px;
+    border-radius: 15px;
   }
 }
