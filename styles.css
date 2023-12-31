@@ -108,6 +108,12 @@
   transform: scale(1.015);
 }
 
+/* customizing footer btn  */
+
+/* .modal-footer {
+  margin: 24px;
+} */
+
 /* form modal for mobile device  */
 
 @media only screen and (max-width: 600px) {
