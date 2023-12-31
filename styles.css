@@ -120,6 +120,7 @@
 @media only screen and (max-width: 600px) {
   .form-modal-dimention {
     width: 350px;
+    margin-left: 10px;
   }
   .form-modal {
     border: 1px;
