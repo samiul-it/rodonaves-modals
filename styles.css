@@ -112,6 +112,7 @@
 
 /* .modal-footer {
   margin: 24px;
+  padding: 16px;
 } */
 
 /* form modal for mobile device  */
@@ -202,6 +203,7 @@
     border-radius: 16px;
     background-color: #2b17ff;
     color: #ffffff;
+    margin: 8px;
     /* gap: 8px; */
   }
 }
