@@ -213,7 +213,7 @@
   background-color: #f5f5f5;
   border-radius: 40px;
   border: 1px;
-  padding: 64px, 32px, 100px, 32px;
+  /* padding: 64px 32px 100px 32px; */
 }
 
 /* close button  */
@@ -233,7 +233,16 @@
   margin-top: 16px;
 }
 
-.contact {
+.contact-label p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+
+.contact-footer-text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.6px;
 }
 
 .contact p {
@@ -242,6 +251,7 @@
   font-weight: 700;
 }
 .contact a {
+  color: #00002e;
   margin-left: 10px;
   font-size: 16px;
   font-weight: 700;
@@ -251,7 +261,7 @@
 
 @media only screen and (max-width: 600px) {
   .info-modal-dimention {
-    width: 350px;
+    width: 420px;
     background-color: #f5f5f5;
     border-radius: 40px;
     border: 1px;
@@ -273,13 +283,26 @@
     margin-top: 16px;
   }
 
-  .contact {
-  }
-
   .contact p {
     margin-left: 8px;
     font-size: 13px;
     font-weight: 700;
+  }
+  .contact a {
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .contact-label p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15.2px;
+  }
+
+  .contact-footer-text p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16.6px;
   }
 }
 
