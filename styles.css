@@ -210,7 +210,7 @@
 
 .info-modal-dimention {
   width: 600px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border-radius: 40px;
   border: 1px;
   /* padding: 64px 32px 100px 32px; */
@@ -219,7 +219,11 @@
 /* close button  */
 
 .info-close-button button {
-  background-color: #f5f5f5;
+  background-color: #fafafa;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  border-radius: 24px;
 }
 .info-modal-content {
   width: 536px;
@@ -269,9 +273,11 @@
 
   /* close button  */
 
-  .info-close-button {
+  .info-close-button button {
     width: 30px;
+    padding: 0px;
   }
+
   .info-modal-content {
     width: 300px;
   }
