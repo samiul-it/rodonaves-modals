@@ -112,6 +112,14 @@
   padding: 16px;
 } */
 
+.modal-footer-error {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18.2px;
+  color: #ff4c41;
+  
+}
+
 /* form modal for mobile device  */
 
 @media only screen and (max-width: 600px) {
